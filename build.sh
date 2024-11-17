@@ -1,8 +1,5 @@
 #!/usr/bin/bash
 
-mkdir salida
-
-
 
 ./inicio.sh > ./salida/index.html
 
