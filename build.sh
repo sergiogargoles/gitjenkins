@@ -1,13 +1,13 @@
 #!/usr/bin/bash
 
 
-./inicio.sh > ./salida/index.html
+./inicio.sh > /salida/index.html
 
-./pagina1.sh > ./salida/pagina1.html
+./pagina1.sh > /salida/pagina1.html
 
-./pagina2.sh > ./salida/pagina2.html
+./pagina2.sh > /salida/pagina2.html
 
-./pagina3.sh > ./salida/pagina3.html
+./pagina3.sh > /salida/pagina3.html
 
 if [ -f ./salida/"w3.css"]; then
     echo "Archivo CSS ya descargado."
