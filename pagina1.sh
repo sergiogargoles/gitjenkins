@@ -1,4 +1,4 @@
 #!/bin/bash
 
-./inicio.sh página 1
+./inicio.sh página1
 
